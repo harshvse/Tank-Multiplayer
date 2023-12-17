@@ -13,6 +13,7 @@ public class PlayerMovement : NetworkBehaviour
 
     private Vector2 previousMovementInput;
     private bool isFiring;
+    
     public override void OnNetworkSpawn()
     {
         if (!IsOwner) return;
